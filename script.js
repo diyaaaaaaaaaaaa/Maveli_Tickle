@@ -23,3 +23,12 @@ maveli.addEventListener("click", () => {
         maveli.classList.remove("jump");
     }, 200);
 });
+// 🎉 Party Button Confetti
+let partyBtn = document.getElementById("partyBtn");
+partyBtn.addEventListener("click", () => {
+    confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 }
+    });
+});

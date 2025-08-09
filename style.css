@@ -1,6 +1,6 @@
 .head{
     text-align: center;
-   
+    margin-top:20px;
 }
 img{
      display: block;
@@ -17,3 +17,25 @@ img{
 .jump {
     transform: translateY(-50px);
 }
+#partyBtn{
+ padding: 10px 14px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 118, 136, 0.4);
+    transition: all 0.3s ease;
+    float:right;
+    position: fixed;
+    bottom: 20px;  
+    right: 20px;  
+
+ font-family: "Chilanka", cursive;
+  font-weight: 900;
+  font-style: normal;
+
+}
+
