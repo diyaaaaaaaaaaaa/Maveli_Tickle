@@ -7,7 +7,7 @@ let tickleCount = 0;
 maveli.addEventListener("click", () => {
     // Increase tickle count
     tickleCount++;
-    counter.textContent = `Tickles: ${tickleCount}`;
+    counter.textContent = `ചിരിപ്പിച്ചു: ${tickleCount}`;
 
     // Make Maveli jump
     maveli.classList.add("jump");
