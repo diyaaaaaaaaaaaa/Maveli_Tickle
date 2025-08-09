@@ -11,6 +11,8 @@ maveli.addEventListener("click", () => {
 
     // Make Maveli jump
     maveli.classList.add("jump");
+    let laugh = new Audio("assets/laugh.mp3");
+    laugh.play();
 
     
 
